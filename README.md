@@ -117,19 +117,19 @@ data: The data or element which you  want to add to linkedlist.
   1 2 3
   ```
 - length()\
- It removes the first element of linkedlist
+ It returns the count total number of elements present in the linkedlist
     ```python
     ll = linkedlist()
-    ll.push(1)
-    ll.push(2)
-    ll.push(3)
-    ll.push(4)
-    ll.push(5)
+    ll.push(11)
+    ll.push(21)
+    ll.push(31)
+    ll.push(41)
+    ll.push(51)
     ll.printnodes()
-    ll.length()
+    print("Linkelist Length: ",ll.length())
     ```
   output
   ```
   1 2 3 4 5
-  5
+  Linkelist Length: 5
   ```
